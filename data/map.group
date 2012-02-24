@@ -1,0 +1,17 @@
+CIwResGroup 
+{ 
+	name "Map" 
+	"./graphics/backgrounds/background_black.png"
+	"./graphics/map/map_background.png"
+	"./graphics/map/map_select_destination.png"
+	"./graphics/map/map_key1.png"
+	"./graphics/map/map_key2.png"
+	"./graphics/map/map_key3.png"
+	"./graphics/map/map_key4.png"
+	"./graphics/map/map_key5.png"
+	"./graphics/map/map_lock1.png"
+	"./graphics/map/map_lock2.png"
+	"./graphics/map/map_lock3.png"
+	"./graphics/map/map_lock4.png"
+	"./graphics/map/map_lock5.png"
+}

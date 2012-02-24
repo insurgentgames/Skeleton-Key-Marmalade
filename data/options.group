@@ -1,0 +1,23 @@
+CIwResGroup 
+{ 
+	name "Options" 
+	"./graphics/backgrounds/background_black.png" 
+	"./graphics/options/options_background.png"
+	"./graphics/options/options_back_menu.png"
+	"./graphics/options/options_back_menu2.png"
+	"./graphics/options/options_back_game.png"
+	"./graphics/options/options_back_game2.png"
+	"./graphics/options/options_sound_on.png"
+	"./graphics/options/options_sound_off.png"
+	"./graphics/options/options_music_on.png"
+	"./graphics/options/options_music_off.png"
+	"./graphics/options/options_shake_on.png"
+	"./graphics/options/options_shake_off.png"
+	"./graphics/options/options_reset.png"
+	"./graphics/options/options_reset2.png"
+	"./graphics/options/options_reset_confirm_background.png"
+	"./graphics/options/options_reset_confirm_yes.png"
+	"./graphics/options/options_reset_confirm_yes2.png"
+	"./graphics/options/options_reset_confirm_cancel.png"
+	"./graphics/options/options_reset_confirm_cancel2.png"
+}

@@ -1,0 +1,16 @@
+CIwResGroup 
+{ 
+	name "Instructions" 
+	"./graphics/backgrounds/background_forest_dark.png" 
+	"./graphics/instructions/instructions_header.png"
+	"./graphics/instructions/instructions_back.png"
+	"./graphics/instructions/instructions_back2.png"
+	"./graphics/instructions/instructions_menu.png"
+	"./graphics/instructions/instructions_menu2.png"
+	"./graphics/instructions/instructions_next.png"
+	"./graphics/instructions/instructions_next2.png"
+	"./graphics/instructions/instructions_page1.png"
+	"./graphics/instructions/instructions_page2.png"
+	"./graphics/instructions/instructions_page3.png"
+	"./graphics/instructions/instructions_page4.png"
+}

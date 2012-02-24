@@ -1,0 +1,116 @@
+# for android, keep including gles1-atitc.dz
+# for iphone and bada, comment that line out
+
+files
+{
+	(source)
+	main.cpp
+	config.h
+	scene_menu.h
+	scene_menu.cpp
+	scene_map.h
+	scene_map.cpp
+	scene_select_level.h
+	scene_select_level.cpp
+	scene_game.h
+	scene_game.cpp
+	scene_game_menu.h
+	scene_game_menu.cpp
+	scene_instructions.h
+	scene_instructions.cpp
+	scene_nag.h
+	scene_nag.cpp
+	scene_options.h
+	scene_options.cpp
+	scene_achievements.h
+	scene_achievements.cpp
+	settings.h
+	settings.cpp
+	sqlite3_wrapper.h
+	sqlite3_wrapper.cpp
+	sounds.h
+	sounds.cpp
+	game_data.h
+	game_data.cpp
+	achievements.h
+	achievements.cpp
+	(source/ig2d)
+	ig.h
+	ig_animation.h
+	ig_animation.cpp
+	ig_button.h
+	ig_button.cpp
+	ig_director.h
+	ig_director.cpp
+	ig_distorter.h
+	ig_distorter.cpp
+	ig_global.h
+	ig_global.cpp
+	ig_label.h
+	ig_label.cpp
+	ig_node.h
+	ig_node.cpp
+	ig_resource_manager.h
+	ig_resource_manager.cpp
+	ig_scene.h
+	ig_scene.cpp
+	ig_sprite.h
+	ig_sprite.cpp
+	ig_touches.h
+	ig_touches.cpp
+}
+
+assets
+{
+	("data")
+	# sqlite databases
+	settings.db
+	levels.db
+	saved_game.db
+	achievements.db
+	# airplay splash image
+	splash.jpg
+	# music
+	menu.mp3
+	gameplay1.mp3
+	gameplay2.mp3
+	gameplay3.mp3
+	
+	("archive")
+	sound.dz
+	gles1.dz
+	#gles1-atitc.dz
+}
+
+subprojects
+{
+	iw2d
+	derbh
+	third_party/sqlite3
+}
+
+deployments
+{
+	["iphone"]
+	iphone-appid='com.insurgentgames.skeletonkey'
+	iphone-icon=other_files/ios/icon.png
+	iphone-splash=other_files/ios/Default.png
+	itunes-artwork=other_files/ios/iTunes_large.png
+	iphone-sign-for-distribution='1'
+	version-string='1.7'
+	iphone-provisioning-profile=other_files/ios/SkeletonKeyAdHoc.mobileprovision
+	iphone-icon-high-res=other_files/ios/icon_114.png
+	iphone-icon-ipad=other_files/ios/icon_72.png
+	iphone-prerendered-icon='1'
+	
+	["android"]
+	android-icon=other_files/android/icon.png
+	android-manifest=other_files/android/AndroidManifest.xml
+	android-pkgname='com.insurgentgames.skeletonkey'
+	version-string='1.0'
+	
+	["bada"]
+	bada-icon=other_files/bada/Application.png
+	bada-splash=other_files/bada/Splash.png
+	version-string='1.0.0'
+}

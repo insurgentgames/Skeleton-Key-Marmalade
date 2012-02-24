@@ -1,0 +1,10 @@
+CIwResGroup 
+{ 
+	name "Nag" 
+	"./graphics/backgrounds/background_forest_dark.png" 
+	"./graphics/nag/nag_header.png"
+	"./graphics/nag/nag_yes.png"
+	"./graphics/nag/nag_yes2.png"
+	"./graphics/nag/nag_no.png"
+	"./graphics/nag/nag_no2.png"
+}

@@ -1,0 +1,17 @@
+CIwResGroup 
+{ 
+	name "Achievements" 
+	"./graphics/backgrounds/background_wood.png" 
+	"./graphics/achievements/achievements_header.png"
+	"./graphics/achievements/achievements_menu.png"
+	"./graphics/achievements/achievements_menu2.png"
+	"./graphics/achievements/achievements_back.png"
+	"./graphics/achievements/achievements_back2.png"
+	"./graphics/achievements/achievements_next.png"
+	"./graphics/achievements/achievements_next2.png"
+	"./graphics/achievements/achievements_row_background.png"
+	"./graphics/achievements/achievements_locked_trophy.png"
+	"./graphics/achievements/achievements_trophy.png"
+	"./fonts/font_gabriola_16b.gxfont"
+	"./fonts/font_gabriola_14.gxfont"
+}

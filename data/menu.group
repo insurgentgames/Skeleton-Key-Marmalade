@@ -1,0 +1,16 @@
+CIwResGroup 
+{ 
+	name "Menu" 
+	"./graphics/backgrounds/background_forest_light.png" 
+	"./graphics/menu/menu_header.png"
+	"./graphics/menu/menu_play_game.png"
+	"./graphics/menu/menu_play_game2.png"
+	"./graphics/menu/menu_instructions.png"
+	"./graphics/menu/menu_instructions2.png"
+	"./graphics/menu/menu_options.png"
+	"./graphics/menu/menu_options2.png"
+	"./graphics/menu/menu_achievements.png"
+	"./graphics/menu/menu_achievements2.png"
+	"./graphics/menu/menu_other_games.png"
+	"./graphics/menu/menu_other_games2.png"
+}

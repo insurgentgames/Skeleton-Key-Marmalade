@@ -1,0 +1,16 @@
+CIwResGroup 
+{ 
+	name "SelectLevel" 
+	"./graphics/select_level/select_level_forest.png"
+	"./graphics/select_level/select_level_caves.png"
+	"./graphics/select_level/select_level_beach.png"
+	"./graphics/select_level/select_level_ship.png"
+	"./graphics/select_level/select_level_header.png"
+	"./graphics/select_level/select_level_back.png"
+	"./graphics/select_level/select_level_back2.png"
+	"./graphics/select_level/select_level_diff_easy.png"
+	"./graphics/select_level/select_level_diff_medium.png"
+	"./graphics/select_level/select_level_diff_hard.png"
+	"./graphics/select_level/select_level_perfect.png"
+	"./fonts/font_deutsch_26.gxfont"
+}
